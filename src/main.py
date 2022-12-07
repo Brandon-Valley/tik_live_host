@@ -9,21 +9,39 @@ api.set(
     __sandbox__=True
 )
 
+User = api.user(
+    accountKey="DemoAccountKeyTokenSeHYGXDfd4SFD320Sc39Asd0Sc39A"
+)
+
 try:
-    response = api.public.check(
-        username="lilyachty"
+    response = User.live.info(
+        room_id="7112492061034646278"
     )
 
     pprint(response.json())
 
 except ValidationException as e:
-   pprint(e, e.field)
+    print(e, e.field)
 
 except ResponseException as e:
-    pprint(e, e.response.status_code)
+    print(e, e.response.status_code)
 
-# DemoAPIKeyTokenSeHYGXDfd4SFD320Sc39Asd0Sc39Asd4s
+
+# try:
+#     response = api.public.check(
+#         username="lilyachty"
+#     )
 # 
-# Sandbox Account Key:
+#     pprint(response.json())
 # 
-# DemoAccountKeyTokenSeHYGXDfd4SFD320Sc39Asd0Sc39A
+# except ValidationException as e:
+#     pprint(e, e.field)
+# 
+# except ResponseException as e:
+#     pprint(e, e.response.status_code)
+# 
+# # DemoAPIKeyTokenSeHYGXDfd4SFD320Sc39Asd0Sc39Asd4s
+# # 
+# # Sandbox Account Key:
+# # 
+# # DemoAccountKeyTokenSeHYGXDfd4SFD320Sc39Asd0Sc39A
