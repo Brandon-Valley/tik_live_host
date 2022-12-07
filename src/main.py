@@ -21,6 +21,7 @@ try:
     pprint(response.json())
 
     while(response):
+        print('NEW RESP `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````')
         nextCursor = response.json().get('nextCursor')
         print("Getting next items ", nextCursor)
         response = response.next_items()

@@ -131,3 +131,5 @@ dmypy.json
 .project
 
 .pydevproject
+
+src/SECRETS.py

@@ -21,3 +21,12 @@ DemoAPIKeyTokenSeHYGXDfd4SFD320Sc39Asd0Sc39Asd4s
 Sandbox Account Key:
 
 DemoAccountKeyTokenSeHYGXDfd4SFD320Sc39Asd0Sc39A
+
+
+# GPT
+
+read through for better quality / faster results - https://beta.openai.com/docs/guides/completion/introduction
+
+pip install openai
+
+
