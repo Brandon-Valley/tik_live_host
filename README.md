@@ -29,4 +29,6 @@ read through for better quality / faster results - https://beta.openai.com/docs/
 
 pip install openai
 
+make api key https://beta.openai.com/docs/api-reference/authentication
+
 
