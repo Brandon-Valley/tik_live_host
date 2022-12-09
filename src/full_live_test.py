@@ -31,10 +31,14 @@ def main():
     
         while(response):
             print('NEW RESP `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````')
+            resp_username_l = tik_api_handler.get_username_l(response.json())
+            
+            print("resp_username_l:", resp_username_l)
+            
             nextCursor = response.json().get('nextCursor')
             print("Getting next items ", nextCursor)
             response = response.next_items()
-            pprint(response.json())
+            # pprint(response.json())
             
             resp_l.append(response.json())
             json_logger.write(resp_l, LOG_JSON_FILE_PATH)

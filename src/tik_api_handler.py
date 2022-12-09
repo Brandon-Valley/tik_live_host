@@ -17,7 +17,25 @@ def get_User():
     return User
 
 
-
+def get_username_l(resp):
+    msg_dl = resp["messagesList"]
+    
+    username_l = []
+    
+    for msg_d in msg_dl:
+        msg_type = msg_d["messageType"]
+        
+        if msg_type == "ChatMessage":
+            msg_txt = msg_d["content"]
+            
+            user_d = msg_d["user"]
+            user_display_id = user_d["displayId"]
+            user_nickname = user_d["nickname"]
+            username_l.append(user_nickname)
+            
+    return username_l
+            
+        
 
 
 
