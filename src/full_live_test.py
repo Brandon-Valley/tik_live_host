@@ -19,9 +19,13 @@ def get_display_str_l(username, roast_str):
     display_str_l = []
     
     display_str_l.append("")
+    display_str_l.append("")
+    display_str_l.append("")
     display_str_l.append(username)
     display_str_l.append("")
     display_str_l.append(roast_str)
+    display_str_l.append("")
+    display_str_l.append("")
     display_str_l.append("")
     
     return display_str_l
@@ -41,7 +45,7 @@ def main():
         resp_l.append(response.json())
         json_logger.write(resp_l, LOG_JSON_FILE_PATH)
     
-        pprint(response.json())
+        # pprint(response.json())
     
         while(response):
             print('NEW RESP `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````')
