@@ -24,7 +24,7 @@ def get_roast_str_from_username(username):
     model = "text-davinci-003",
 #     prompt="Tell me a joke about a fish.",
 #     prompt='Roast-bot, I command you to roast user: "MeatballMama55"',
-    prompt='Roast-bot, roast this user based on their username: "{' + username + '}"',
+    prompt='Roast-bot, roast this user based on their username: ' + username,
 #     temperature = 2,
     max_tokens=30
     )

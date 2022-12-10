@@ -16,7 +16,8 @@ def get_roast_str_from_username(username):
     model = "text-davinci-003",
 #     prompt="Tell me a joke about a fish.",
 #     prompt='Roast-bot, I command you to roast user: "MeatballMama55"',
-    prompt='Roast-bot, roast this user based on their username: "{' + username + '}"',
+    # prompt='Roast-bot, roast this user based on their username: "{' + username + '}"',
+    prompt='Roast-bot, roast this user based on their username: "' + username + '"',
 #     temperature = 2,
     max_tokens=30
     )
@@ -40,29 +41,31 @@ def get_roast_str_from_username(username):
 # print(openai.Model(id, api_key, api_version, api_type, organization, response_ms, api_base, engine))
 # print(openai.Completion.)
 
-
-# list engines
-engines = openai.Engine.list()
-
-# print the first engine's id
-print(engines.data[0].id)
-
-# create a completion
-# completion = openai.Completion.create(engine="ada", prompt="Hello world")
-completion = openai.Completion.create(
-    model = "text-davinci-003",
-#     prompt="Tell me a joke about a fish.",
-#     prompt='Roast-bot, I command you to roast user: "MeatballMama55"',
-    prompt='Roast-bot, roast this user based on their username: "MeatballMama55"',
-#     temperature = 2,
-    max_tokens=30
-    )
+#
+# # list engines
+# engines = openai.Engine.list()
+#
+# # print the first engine's id
+# print(engines.data[0].id)
+#
+# # create a completion
+# # completion = openai.Completion.create(engine="ada", prompt="Hello world")
+# completion = openai.Completion.create(
+#     model = "text-davinci-003",
+# #     prompt="Tell me a joke about a fish.",
+# #     prompt='Roast-bot, I command you to roast user: "MeatballMama55"',
+#     prompt='Roast-bot, roast this user based on their username: "MeatballMama55"',
+# #     temperature = 2,
+#     max_tokens=30
+#     )
 
 # print the completion
 
-
-roast_str = get_roast_str_from_username("MeatballMama55")
-print(roast_str)
+if __name__ == "__main__":
+    roast_str = get_roast_str_from_username("MeatballMama55")
+    print(roast_str)
+    roast_str = get_roast_str_from_username("ELLOKIKO")
+    print(roast_str)
 
 
 print('Done')
