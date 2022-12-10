@@ -12,6 +12,7 @@ import time
 
 SCRIPT_PARENT_DIR_PATH = os.path.abspath(os.path.dirname(__file__))
 LOG_JSON_FILE_PATH = os.path.join(SCRIPT_PARENT_DIR_PATH, "logs", "v1_0_live_test_logs.json")
+LOG_OPEN_AI_PROMPT_RESP_JSON_FILE_PATH = os.path.join(SCRIPT_PARENT_DIR_PATH, "logs", "OPEN_AI_PROMPT_RESP_LOGS", "OPEN_AI_PROMPT_RESP__v1_0_live_test_logs.json")
 
 SLEEP_BETWEEN_MSG_DISPLAYS_NUM_SEC = 3
 
@@ -53,7 +54,7 @@ def main():
             
             for username in resp_username_l:
                 
-                roast_str = open_ai_api_handler.get_roast_str_from_username(username)
+                roast_str = open_ai_api_handler.get_roast_str_from_username(username, LOG_OPEN_AI_PROMPT_RESP_JSON_FILE_PATH)
                 
                 display_str_l = get_display_str_l(username, roast_str)
                 
