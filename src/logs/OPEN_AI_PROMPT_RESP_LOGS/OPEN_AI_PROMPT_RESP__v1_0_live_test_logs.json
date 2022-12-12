@@ -110,5 +110,197 @@
             "max_tokens": 30
         },
         "resp": "\n\nELLOKIKO is so basic that not even the alphabet wants to be associated with them."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 30
+        },
+        "resp": "\n\nELLOKIKO, you must have a really hard time spelling things right."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 30
+        },
+        "resp": "\n\nELLOKIKO, your username sounds like \"ello kooky\", which coincidentally describes your sense of style."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 30
+        },
+        "resp": "\n\nELLOKIKO, you may think you have it all figured out, but I have a feeling you are just as lost as the rest"
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 30
+        },
+        "resp": "\n\nELLOKIKO, you act like you have a lot of swagger but deep down you know you're nothing more than a weak wil"
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, you must have a really hard time remembering your own name, it's like you spelled ELMO wrong."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nI'd say that with a username like ELLOKIKO, you should really work on being more creative."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO must be really proud to have such an unremarkable username."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, your username sounds like something a cartoon chicken would say when laying an egg."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\n@Ellokiko, you're obviously very forgetful if your username only contains 4 letters!"
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, you probably have a boring life being that your username sounds like it was made in a hurry by a 5 year old."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, your username sounds like something a 5-year-old tried to spell with their eyes closed."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, your username may look cool, but your personality is as bland as a bowl of plain oatmeal."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, looks like your parents got a little too creative with the spelling of \"eloquent\"."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, you must be so insecure that you have to make up a name to make yourself seem cool."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, your username sounds like a dying frog's last words. LMAO."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, you may be a mean green fighting machine, but you don't have the most original username out there."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, your name probably came from the sound of a turtle trying to sing, like a warbly rusty old thing. Think it's time to mute that tune and step into a dancing shoe!"
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, you thought a silly username like that would make people forget about your complete lack of intelligence and wit? Think again!"
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, your username is about as creative as a broken pencil."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, you may be full of enthusiasm, but that doesn't mean you can't be full of hot air as well."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, your username is so boring, it's like watching paint dry!"
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, you must have trouble spelling your name if you had to resort to such a jumble of letters as your username."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, your username almost sounds like \"hello\" and \"bye bye\" mixed together, so it only makes sense that you'd be delusional enough to think you can never be said goodbye to."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 64
+        },
+        "resp": "\n\nELLOKIKO, you must have been born without a backbone judging by how you try and take credit for everybody else's hard work!"
     }
 ]

@@ -24,7 +24,8 @@ def send_init_roast_bot_primer_prompt():
 def get_roast_str_from_username(username, log_json_file_path = None):
     model = "text-davinci-003"
     prompt='Roast-bot, roast this user based on their username: ' + username
-    max_tokens = 30
+    # max_tokens = 30
+    max_tokens = 64
     
     completion = openai.Completion.create(
     model = model,
