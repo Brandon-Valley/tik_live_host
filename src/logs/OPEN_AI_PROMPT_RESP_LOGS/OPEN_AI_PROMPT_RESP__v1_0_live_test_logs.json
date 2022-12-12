@@ -86,5 +86,29 @@
             "max_tokens": 30
         },
         "resp": "\n\nELLOKIKO, your social life must be pretty slim if the only one you can count on is a robot that can't ever give"
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 30
+        },
+        "resp": "\n\nELLOKIKO, you're so dull, you must have been the first one to find a crayon on the floor and keep"
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 30
+        },
+        "resp": "\n\nELLOKIKO, your username may sound great, but your jokes are about as dry as a battlefield in the desert."
+    },
+    {
+        "params": {
+            "model": "text-davinci-003",
+            "prompt": "Roast-bot, roast this user based on their username: ELLOKIKO",
+            "max_tokens": 30
+        },
+        "resp": "\n\nELLOKIKO is so basic that not even the alphabet wants to be associated with them."
     }
 ]

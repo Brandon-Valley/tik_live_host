@@ -31,4 +31,6 @@ pip install openai
 
 make api key https://beta.openai.com/docs/api-reference/authentication
 
+# TTS
 
+pip install pyttsx3

@@ -16,6 +16,9 @@ LOG_OPEN_AI_PROMPT_RESP_JSON_FILE_PATH = os.path.join(SCRIPT_PARENT_DIR_PATH, "l
 
 SLEEP_BETWEEN_MSG_DISPLAYS_NUM_SEC = 3
 
+import pyttsx3
+
+
 def get_display_str_l(username, roast_str):
     display_str_l = []
     
@@ -60,6 +63,10 @@ def main():
                 
                 for display_str in display_str_l:
                     print(display_str)
+                    
+                    engine = pyttsx3.init()
+                    engine.say(display_str)
+                    engine.runAndWait()
                     
                 time.sleep(SLEEP_BETWEEN_MSG_DISPLAYS_NUM_SEC)
             
